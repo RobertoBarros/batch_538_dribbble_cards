@@ -1,0 +1,32 @@
+/* --- Fonts --- */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
+@import url("https://use.fontawesome.com/releases/v5.7.1/css/all.css");
+
+ /*--- Imports --- */
+@import url("components/utilities.css");
+@import url("components/card.css");
+@import url("components/icons.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+
+
+body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  padding-bottom: 200px;
+  margin: 0;
+  background: #E4E4E4;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", "sans-serif";
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+

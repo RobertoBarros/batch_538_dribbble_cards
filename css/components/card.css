@@ -1,0 +1,42 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.card-container {
+  width: 250px;
+  flex: 0 0 30%;
+}
+
+.card-white {
+  padding: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 2px #B3B3B3;
+  border-radius: 4px;
+}
+
+.card-white .btn {
+  opacity: 0;
+}
+
+.card-white:hover .btn {
+  opacity: 1;
+  transition: 1s;
+}
+
+.card-white-img {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-user {
+  padding-top: 20px;
+}
+
+.card-user a {
+  color: #B3B3B3;
+  padding-left: 10px;
+}
